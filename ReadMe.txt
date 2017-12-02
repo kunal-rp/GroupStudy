@@ -11,9 +11,14 @@ Front End
 			+Upcoming Assignments
 
 BackEnd	
+	-API
+		+Get all groups
+		+Subscribe to group
+		+get group description
+		+get group chat
+		
 	
-Database
+Database(Kunal)
 	-User Table
 	-group Table
 	-chat table
-	
