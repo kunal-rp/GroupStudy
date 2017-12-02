@@ -13,3 +13,7 @@ Front End
 BackEnd	
 	
 Database
+	-User Table
+	-group Table
+	-chat table
+	
