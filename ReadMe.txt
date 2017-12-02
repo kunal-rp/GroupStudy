@@ -6,7 +6,7 @@ Front End
 	-Main screen
 		+Subjects Categories
 	-Group Screen
-		+Chat
+		+Chat - Roenyl
 		+Course Description
 			+Upcoming Assignments
 
