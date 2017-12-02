@@ -30,20 +30,25 @@ var connectionPool = mysql.createPool({
 var table_user = "Users"
 
 
-
-
-
 app.get('/addUser',function(req,res){
-	var data = {user_name:"Kunal Purohit",user_password:"password"}
-	connectionPool.getConnection(function(connection_error,connection){
-		if(connection_error){
-			console.log(connection_error)
-		}
-		else{
-			generateUserID(data,connection,function(){res.send("Done")})
-		}
-	})
+	var given_user_name = req.get("user_name");
+	console.log(req.query)
+	var given_user_password = req.get("user_password");
 
+	if(given_user_name == undefined || given_user_password == undefined){
+		res.send("Error");
+	}
+	else{
+		var data = {user_name:given_user_name,user_password:given_user_password}
+		connectionPool.getConnection(function(connection_error,connection){
+			if(connection_error){
+				console.log(connection_error)
+			}
+			else{
+				generateUserID(data,connection,function(){res.send("Done")})
+			}
+		})
+	}
 });
 
 
