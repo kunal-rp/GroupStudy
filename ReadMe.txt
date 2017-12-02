@@ -21,4 +21,4 @@ BackEnd
 Database(Kunal)
 	-User Table
 	-group Table
-	-chat table
+	-event table
