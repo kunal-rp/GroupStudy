@@ -9,7 +9,7 @@ export default class SideBar extends Component {
     const subscribed_groups = this.props.subscribed_groups;
     const groupArr = subscribed_groups.map( (subscribed_group) => {
         return (
-            <div>
+            <div key={subscribed_group} className = "Groups">
                 {subscribed_group}
             </div>
         )

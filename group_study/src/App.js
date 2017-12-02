@@ -7,11 +7,21 @@ class App extends Component {
 constructor(props) {
   super(props);
   this.state = {
-    subscribed_groups: [
-      'cs130',
-      'cs408',
-      'cs500'
-    ] 
+      subscribed_groups: [
+        'cs130',
+        'cs408',
+        'cs500'
+      ], 
+      subjects: [
+        {
+          subject_name: "Computer Science",
+          courses: ['CS 130', 'CS 356', 'CS 480']
+        }
+        ,{
+          subject_name: "Math",
+          courses: ['MA 156', 'MA 456', 'MA 460']
+        }
+      ]    
   }
 }
 
