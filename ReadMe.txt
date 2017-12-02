@@ -6,7 +6,7 @@ Front End
 	-Main screen
 		+Subjects Categories (Andrew)
 	-Group Screen
-		+Chat (Roenyl)
+		+Chat (Roenyl) (Marlon)
 		+Course Description
 			+Upcoming Assignments
 
