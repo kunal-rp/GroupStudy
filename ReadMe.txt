@@ -4,7 +4,7 @@ Front End
 	-Side Bar 
 		+Subscribed Groups
 	-Main screen
-		+Subjects Categories (Andrew)
+		+Subjects Categories (Andrew)(Hamza)
 	-Group Screen
 		+Chat (Roenyl) (Marlon)
 		+Course Description
