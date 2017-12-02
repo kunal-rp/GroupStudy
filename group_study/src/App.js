@@ -18,7 +18,7 @@ constructor(props) {
   render() {
     return (
       <div className="App">
-        <SideBar />
+        <SideBar subscribed_groups={this.state.subscribed_groups} />
         <MainWindow />
       </div>
     );

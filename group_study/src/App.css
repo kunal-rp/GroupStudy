@@ -1,7 +1,8 @@
 .App {
-  text-align: center;
+  position: relative;
+  height: 100%;
 }
-.App .sidebar-container {
+.sidebar-container {
   display: inline-block;
   border: solid 1px black;
   width: 30%;
@@ -11,9 +12,8 @@
 
 .main-window-container {
   display: inline-block;
-  width: 70%;
-  border: solid 1px red;
-
+  width: 69%;
+  height: 100%;
 }
 
 
