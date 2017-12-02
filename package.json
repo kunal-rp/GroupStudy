@@ -1,0 +1,9 @@
+{
+  "name": "GroupStudy",
+  "version": "1.0.0",
+  "description": "Group study hackathon project",
+  "main": "index.js",
+  "repository": "https://github.com/kunal-rp/GroupStudy.git",
+  "author": "anbe6083 <anbe6083@colorado.edu>",
+  "license": "MIT"
+}
