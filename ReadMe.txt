@@ -4,7 +4,7 @@ Front End
 	-Side Bar 
 		+Subscribed Groups
 	-Main screen
-		+Subjects Categories
+		+Subjects Categories (Andrew)
 	-Group Screen
 		+Chat - Roenyl
 		+Course Description
