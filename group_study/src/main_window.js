@@ -21,7 +21,7 @@ export default class Main_Window extends Component {
                             return(
                             
                                 <div key={course} className="courses" > 
-                                    <a href="#"  >
+                                    <a href="#">
                                         {course}
                                     </a>
                                 </div>
@@ -35,7 +35,7 @@ export default class Main_Window extends Component {
         } );
         return (
             <div className='main-window-container'>
-                <h1>Main Window</h1>
+                <h2>Main Window</h2>
                 {subjects_array}
             </div>
         )

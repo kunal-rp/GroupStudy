@@ -5,17 +5,36 @@
 .sidebar-container {
   display: inline-block;
   border: solid 1px black;
-  width: 30%;
+  width: 10%;
   height: 100%;
   color: red;
+  padding: 10px;
 }
 
 .main-window-container {
   display: inline-block;
-  width: 69%;
+  width: 60%;
   height: 100%;
+  padding-left: 10px;
 }
 
+/*Courses and Subject names in Main window*/
+.courses {
+  display: inline-block;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(133, 133, 255);
+  border-radius: 100%;
+  background-color: lightblue;
+  font-style: normal;
+}
+
+.subject_name {
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  padding-bottom: 7px; 
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
