@@ -1,6 +1,8 @@
 .App {
   position: relative;
   height: 100%;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 0 0 20px black;
 }
 .sidebar-container {
   display: inline-block;
@@ -9,6 +11,7 @@
   height: 100%;
   color: red;
   padding: 10px;
+  text-align: -webkit-center;
 }
 
 .main-window-container {
@@ -33,7 +36,8 @@
   font-size: 20px;
   padding: 5px;
   font-weight: bold;
-  padding-bottom: 7px; 
+  padding-bottom: 7px;
+  /* border-style: solid;  */
 }
 
 @keyframes App-logo-spin {

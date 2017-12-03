@@ -19,8 +19,8 @@ export default class Main_Window extends Component {
                         {subject.courses.map((course => {
 
                             return(
-                            
-                                <div key={course} className="courses" > 
+                                // Need to fix how function is called  onClick={this.props.handleSubscribeGroups({course})}
+                                <div key={course} className="courses" >
                                     <a href="#">
                                         {course}
                                     </a>

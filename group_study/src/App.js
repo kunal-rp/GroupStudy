@@ -16,7 +16,7 @@ constructor(props) {
       subjects: [
         {
           subject_name: "Computer Science",
-          courses: ['CS 130', 'CS 356', 'CS 480']
+          courses: ['CS 140', 'CS 356', 'CS 480']
         }
         ,{
           subject_name: "Math",
@@ -29,6 +29,7 @@ constructor(props) {
 }
 
   handleSubscribeGroups= (group)=>{
+  //  handleSubscribeGroups(group){
     console.log('pressed in the window');
     this.setState({
       subscribed_groups: this.state.subscribed_groups.concat(group)
